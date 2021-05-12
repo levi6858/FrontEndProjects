@@ -1,0 +1,50 @@
+
+h1{
+    font-size: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+body{
+    box-sizing: border-box;
+    border: dotted blue;
+    background-image: url("images/gumback.gif");
+    background-repeat: repeat;
+}
+.myflexboxRow{
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.95;
+}
+
+.myflexboxColumn{
+    flex: 25%;
+    padding: 20px;
+    opacity: 0.95;
+}
+
+@media screen and (max-width: 992px) {
+    .myflexboxColumn {
+        flex: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+        flex-direction: column
+    }
+}
+
+footer{
+    flex: none;
+    display: block;
+}

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{D22839C1-AAC4-45AC-8C7D-A12F8BE9A2E9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Thisprobablywontwork1/Default.aspx">
+    <Files>
+      <File FileName="Thisprobablywontwork1/Default.aspx" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Thisprobablywontwork1" expanded="True">
+            <Node name="Thisprobablywontwork1" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Thisprobablywontwork1 FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Thisprobablywontwork1.Tests FirstBuild="True" />
+</Properties>

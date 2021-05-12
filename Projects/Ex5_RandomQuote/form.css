@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+
+}
+body {
+    background-color: lightgray;
+}
+
+.myflexboxRow{
+    display:block;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.myflexboxColumn{
+    flex: 25%;
+    padding: 20px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 50px;
+    color: lightcoral;
+    
+}
+.author {
+        text-align: center;
+        text-size-adjust: 100;
+        color: lightcoral;
+        
+}
+
+@media screen and (max-width: 992px) {
+    .myflexboxColumn {
+        flex: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+        flex-direction: column
+    }
+}

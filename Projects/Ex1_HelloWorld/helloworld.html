@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="helloworld.css" content="helloworld.css">
+    <link rel="stylesheet" href="helloworld.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World
+    </title>
+    <script>
+        function myFunction() {
+            var newname = document.getElementById("name").value;
+            document.getElementById("greeting").innerHTML = "Welcome " + newname;
+
+        }
+    </script>
+</head>
+<body>
+    <h1> Hello World </h1>
+    <form>
+        <label for="name">What is your name?</label>
+        <input type="text" id="name"></a>
+        </form>
+    
+    <br>
+    <button type="button" onclick="myFunction()">Press Me</button>
+    <br>
+    <p id="greeting"></p>
+    <br>
+    
+</body>
+</html>

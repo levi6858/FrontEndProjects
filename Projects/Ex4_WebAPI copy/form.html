@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0)">
+    <title>Model 4</title>
+
+    <link rel="stylesheet" href="form.css">   
+    <script src="form.js"></script>
+</head>
+<body>
+    <h1> Web Service API Consumer Example</h1>
+    <div class="myflexboxRow" >
+        <div class="myflexbowColumn" style="background-color: #bbb;"> 
+            <h2> <b> Obtain user Information </b> </h2>
+                <label for="para">How many Paragraphs? </label>
+                <select name="para" id="para">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <optoin value="5">5</optoin>
+                </select>
+                <br>
+                <input type="button" value="Get my boolean lpsuml" onclick="getData()">
+        </div>
+        <div class="myflexboxColumn" style="background-color:aliceblue;">
+            <h2>Return data in raw JSON </h2>
+            <p id=myRawData> </p>
+        </div>
+
+        <div class="myflexboxColumn" style="background-color: azure;">
+            <h2> Return data as formated paragraphs </h2>
+            <p id=myFormattedData> </p>
+</body>
+</html>

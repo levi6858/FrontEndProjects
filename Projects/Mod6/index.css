@@ -1,0 +1,23 @@
+*{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(139, 61, 61);
+}
+body{
+    background-color:rgba(176, 196, 222, 0.411);
+    border: aliceblue;
+}
+form{
+    color:rgb(3, 3, 83);
+    
+}
+select{
+    
+}
+p {
+    color:rgb(37, 37, 143); 
+
+}

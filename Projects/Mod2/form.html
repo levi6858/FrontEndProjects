@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resize Window</title>
+
+    <link rel="stylesheet" href="form.css">   
+</head>
+<body>
+
+    <h1> The Gum Store </h1>
+    <h3 > Welcome to my gum Store. Where we sell... gum.  </h3>
+    <br>
+    <br>
+    
+
+    <div class="myflexboxRow" >
+        <div class="myflexbowColumn" style="background-color: lightcyan;"> 
+            <h2> Hubba Bubba </h2>
+            <h4><img src="images/Hubba_Bubba.jpg" alt="Image" style="width:50%;" ></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity1" >Choose a Quantity:</label>
+            <select name="Quantity1" id="Quantity1">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+
+        </div>
+
+        <div class="myflexboxColumn" style="background-color:lightpink;">
+            <h2> Juicy Fruit </h2>
+            <h4><img src="images/Juicy_Fruit.jpg" alt="Image" style="width:50%;"></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity2" >Choose a Quantity:</label>
+            <select name="Quantity2" id="Quantity2">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+        </div>
+
+        <div class="myflexboxColumn" style="background-color: lightcyan;">
+            <h2> Big Red Gum </h2>
+            <h4><img src="images/Big_Red.jpeg" alt="Image" style="width:50%;"></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity3" >Choose a Quantity:</label>
+            <select name="Quantity3" id="Quantity3">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+        </div>
+        <div class="myflexboxColumn" style="background-color: lightpink;">
+            <h2> Double Bubble </h2>
+            <h4><img src="images/double_bubble.jpg" alt="Image" style="width:50%;"></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity4" >Choose a Quantity:</label>
+            <select name="Quantity4" id="Quantity4">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+        </div>
+        <div class="myflexboxColumn" style="background-color: lightcyan;">
+            <h2> Bubble Yum </h2>
+            <h4><img src="images/Bubble_Yum.jpeg" alt="Image" style="width:50%;"></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity4" >Choose a Quantity:</label>
+            <select name="Quantity4" id="Quantity4">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+        </div>
+        <div class="myflexboxColumn" style="background-color: lightpink;">
+            <h2> Big League Chew </h2>
+            <h4><img src="images/Big_League.jpg" alt="Image" style="width:50%;"></h4>
+            <h4> $ 10  </h4>
+            <label for="Quantity4" >Choose a Quantity:</label>
+            <select name="Quantity4" id="Quantity4">
+                <option value="0">0</option>
+                <option value="5">1</option>
+                <option value="10">7</option>
+                <option value="1000000000000">1000000000000</option>
+              </select>
+        </div>
+
+        <p id="total">  </p>
+        
+
+        </body>
+        <footer>
+            <h2> Pay For Gum: <button id="click"> Click to Pay </button></h2>
+
+            <script> 
+
+                var q1 = getElementById("Quantity1")
+                var q2 = getElementById("Quantity2")
+                var q3 = getElementById("Quantity3")
+                var q4 = getElementById("Quantity4")
+                var q5 = getElementById("Quantity5")
+    
+                var q = q1.value + q2.value + q3.value + q4.value + q5.value;
+    
+                document.getElementById("total").innerHTML = q;
+
+                </script>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3>Contact Information: </h3>
+                    <p><b>Email: </b> TheGumStore@Gum.com <a href="mailto:TheGumStore@Gum.com">Send email</a></p>
+                    <br>
+                    <p><b>Phone: </b> +1 (800) 123-4567</p>
+                    <br>
+                    </p><b>Social Media: </b><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> @TheGumStore</a></p>
+
+        </footer>
+
+</html>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{CCB9F6ED-990F-464C-8AE7-3AA51CABFB7C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EnerluxPA1/Main.cs">
+    <Files>
+      <File FileName="EnerluxPA1/Main.cs" Line="8" Column="1" />
+      <File FileName="EnerluxPA1/Program.cs" Line="1" Column="1" />
+      <File FileName="EnerluxPA1/appsettings.json" Line="1" Column="1" />
+      <File FileName="EnerluxPA1/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EnerluxPA1" expanded="True">
+            <Node name="EnerluxPA1" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.EnerluxPA1 FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

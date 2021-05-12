@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <title>Gamers Only</title>
+
+    <link rel="stylesheet" href="form.css">   
+</head>
+
+<body style="text-align: center;" style="background-color: beige;">
+    <h1><b>Gamers Survey</b></h1>
+
+    <!--Question #1 enter name, email-->
+    <form action="/action_page.php">
+        <label for="name">*Name:</label>
+        <input type="text" id="name" name="name" required>
+    </form>
+    <form action="/action_page.php">
+      <label for="name">*Email:</label>
+      <input type="text" id="name" name="name" required>
+    </form>
+
+    <br>
+    <br>
+    <!--Question #2 "select a game console"-->
+    <p>*Select your console</p>
+    <label for="gaming"></label>
+    <select id="gaming" name="gaming">
+      <option value="playstation">playstation</option>
+      <option value="xbox">Xbox</option>
+      <option value="mac">Mac OSX</option>
+      <option value="pc">PC</option>
+      <option value="other">N/A</option>
+    </select>
+    <br>
+    <br>
+    <!--Question #3 "select a time"-->
+    <p>*How much time do you spend playing video games?</p>
+    <form >
+        <input type="radio" id="rad" name="percent" value="1" required>
+        <label for="1">30 minutes</label><br>
+        <input type="radio" id="rad" name="percent" value="2">
+        <label for="2">1 hour</label><br>
+        <input type="radio" id="rad" name="percent" value="3">
+        <label for="3">2 hours</label><br>
+        <input type="radio" id="rad" name="percent" value="4">
+        <label for="4">4 hours</label><br>
+        <input type="radio" id="rad" name="percent" value="5">
+        <label for="5">the grind doesnt stop</label>
+      </form>
+
+      <br>
+      <!--Question #4 "enter in a text area"-->
+      <p>*Please explain why you game?</p>
+      <form required onSubmit="alert('Succesfully Submitted')">
+        <textarea name="message" rows="5" cols="54" required></textarea>
+        <br>
+        <br>
+        <input type="submit">
+      </form>   
+
+
+</body>
+
+</html>

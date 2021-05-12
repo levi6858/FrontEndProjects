@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <title>Gamers Only</title>
+
+    <link rel="stylesheet" href="index.css">   
+    <script src="index.js"></script>
+    
+</head>
+
+<body>
+    <h1><b>Gamers Survey</b></h1>
+
+    <!--Question #1 enter name, email-->
+    <form action="/action_page.php" id="name">
+        <label for="name">*Name:</label>
+        <input type="text" id="nameinput" name="name" required>
+    </form>
+    <form action="/action_page.php" id="email">
+      <label for="name">*Email:</label>
+      <input type="text" id="emailinput" name="email" required>
+    </form>
+
+    <br>
+    <br>
+    <!--Question #2 "select a game console"-->
+    <p>*How much time do you spend playing video games?</p>
+    <label for="time"></label>
+    <select id="time" name="time">
+      <option value="1 hours">1 hour</option>
+      <option value="2 hours">2 hours</option>
+      <option value="3 hours">3 hours</option>
+      <option value="4 hours">4 hours</option>
+      <option value="too much">too much</option>
+    </select>
+    <br>
+    <br>
+    <!--Question #3 "select a time"-->
+    <p>*Select your consoles</p>
+    <form name="radiobuttons">
+        <input type="radio" name="percent" value="playstation" required>
+        <label for="1"> playstation</label><br>
+        <input type="radio" name="percent" value="xbox">
+        <label for="2"> xbox</label><br>
+        <input type="radio" name="percent" value="wii">
+        <label for="3"> wii</label><br>
+        <input type="radio" name="percent" value="computer">
+        <label for="4"> computer</label><br>
+        <input type="radio" name="percent" value="none of these">
+        <label for="5"> none of these</label>
+      </form>
+
+      <br>
+      <!--Question #4 "enter in a text area"-->
+      <p>*Please explain why you have the preference of OS that you do?</p>
+      <form>
+        <textarea id="textarea" name="message" rows="5" cols="54" required></textarea>
+        
+        <input onclick=formRun() type="submit">
+      </form>      
+
+</body>
+
+</html>

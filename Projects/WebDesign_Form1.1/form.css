@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    
+}
+body{
+    color:darkslateblue;
+    text-align:center;
+    border: 10px firebrick;
+    outline: dotted royalblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    text-align: center;
+}

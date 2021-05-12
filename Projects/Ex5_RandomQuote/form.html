@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0)">
+    <title>Model 4</title>
+
+    <link rel="stylesheet" href="form.css">   
+    <script src="form.js"></script>
+</head>
+<body>
+    <h1> Random Quote Generator </h1>
+    <div class="myflexboxRow" >
+        <div class="myflexbowColumn"> 
+            <h2> <b> Obtain Random Quote </b> </h2>
+                <label for="para">What Size of Quote? </label>
+                <select name="para" id="para">
+                    <option value="50">Short</option>
+                    <option value="100">Medium</option>
+                    <option value="150">Long</option>
+                <br>
+                <input type="button" value="Get a Random Quote" onclick="getData()">
+        </div>
+        <div class="myflexboxColumn" style="background-color: linen;">
+            <p class="quote" id=quote> Click the "Get a Random Quote" to generate a new quote</p>
+            <p class="author"> By: </p> <p class="author" id=author> Levi Houlton</p>
+        </div>
+</body>
+</html>
+

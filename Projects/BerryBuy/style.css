@@ -1,0 +1,100 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    --text-primary: rgb(0,0,225);
+    --text-secondary: rgb(0,0,225);
+    --bg-primary: rgb(0,0,225);
+    --bg-primary: rgb(0,0,225);
+    --transition-speed: 400ms;
+}
+.fall {
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+
+    color: var(--text-primary);
+    background-color: white;
+}
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    background: orange;
+}
+body::-webkit-scrollbar-thumb {
+    width: 0.5rem;
+    border-radius: 0.625rem;
+    background: aqua;
+}
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+.navbar {
+    position: fixed;
+    background-color: lightblue;
+    transform: width 600ms ease;
+    overflow: scroll;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.nav-item {
+    width: 100%;
+}
+.nav-item :last-child {
+
+}
+.navbar-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    color: azure;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 600ms;
+}
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background-color: beige;
+    color: var(--text-primary);
+}
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+.fa-primary {
+    color: green;
+}
+.fa-secondary {
+    color: red;
+}
+.fa-primary, .fa-secondary {
+    transition: 600ms;
+}
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: azure;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+.logo svg {
+    transform: inline;
+    position: absolute;
+    left: -999px;
+    transition: 600ms;
+
+}
+.navbar:hover .logo svg{
+    transform: rotate(90deg);
+}
